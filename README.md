@@ -59,8 +59,11 @@ const getAverage1 = (...a: number[]): string => {
 
 
 getAverage1(10, 20, 30);
+
 getAverage1(10, 20, 30, 50);
+
 getAverage1(10, 20);
+
 getAverage1(10);
 
 Görüldüğü üzere fonksiyonumuz içerisine SADECE NUMBER TİPİNDE olabilen bir dizi alarak çalışıyor. Return olarak döneceği değeri de string olarak belirledik. Şuan kullanıcı parametreler yerine number dışında bir parametre girdiği anda program hata verecektir.
