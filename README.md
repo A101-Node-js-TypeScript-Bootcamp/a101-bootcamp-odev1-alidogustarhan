@@ -1,5 +1,7 @@
 
-Projemde mongoDB kullandım. Projenin çalışması için localhost un değiştirilmesi gereklidir.
+Projemde mongoDB kullandım. Projenin çalışması için localhost un değiştirilmesi gereklidir.(DOSYALAR NODE.JS İLE SUNUCU AYAĞA KALDIRMA ÖDEVİNE AİT)
+
+Neden TS ödevini de yazılı olarak bu dosyada sundum.
 
 --------------------------------------------------------------
 
