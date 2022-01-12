@@ -1,6 +1,7 @@
 
 Projemde mongoDB kullandım. Projenin çalışması için localhost un değiştirilmesi gereklidir.(DOSYALAR NODE.JS İLE SUNUCU AYAĞA KALDIRMA ÖDEVİNE AİT)
 Çalıştırdıktan sonra "söz ver" sekmesine gidip yeni bir söz eklediğimizde o söz bizim web sitemizin ana sayfasına eklenmiş olacaktır.
+GET ve POST kodları app.js içerisindedir
 
 "Neden TS kullanmalıyız" ödevini de yazılı olarak bu dosyada sundum.
 
