@@ -45,7 +45,8 @@ Fonksiyonlarda TS kullanmanın avantajlarını açıklayalım. JS üzerinde
 
 şeklinde basit bir fonksiyon yazmıs olalım.Bu noktada fonksiyonu kullanan kişi sum(10,20,25) şeklinde number türünde parametreler girerse fonksiyon çalışacaktır. Peki ya string girerse??? Bu noktada JS yetersiz kalır. Ancak TS ile bunları engellediğimiz bir fonksiyon yazabiliriz.
 
-const getAverage1 = (...a: number[]): string => {
+
+    const getAverage1 = (...a: number[]): string => {
     let total = 0;
     let count = 0;
 
@@ -98,17 +99,17 @@ Artık hata şansımız kalmadı.
 TS de çalışırken JS in aksine biz çok detaylı type ataması yapabiliriz. Interface adlı yapılarda oluşturduğumuz bu düzen adeta programımızın hangi türlerden oluşması gerektiğini söyleyen hatta kaç parametre alması gerektiğini söyleyen bir tür filtresi gibi çalışır.Bu bakımda TS ile çalışırken istemediğimiz tür dönüşümleri hatta ve hatta istemediğimiz değişkene erişmelerini bile engelleyebiliriz.
 
 
-interface Point {
-    x: number,
-    y: number
-}
+       interface Point {
+           x: number,
+           y: number
+       }
 
-interface Vehicle {
-    travelTo(point: Point): void;
-    
-}
+        interface Vehicle {
+            travelTo(point: Point): void;
 
-class Taxi implements Vehicle {  
+        }
+
+      class Taxi implements Vehicle {  
     
     constructor(private _location?: Point, private _color?: string) {  }
    
