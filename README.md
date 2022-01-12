@@ -56,7 +56,7 @@ const getAverage1 = (...a: number[]): string => {
 
     const result = total / count;
     return 'result : ' + result;
-}
+
 
 getAverage1(10, 20, 30);
 getAverage1(10, 20, 30, 50);
