@@ -12,8 +12,8 @@ TS ile çalışırken hatalarımızı daha programı compile etmeden görme şan
 İlgili kodlarımızı TS uzantılı dosyada yazdıktan sonra terminale tsc dosyaadı şeklinde yazdığımızda bizim kodlarımızı JS uzantılı koda dönüştürür.Artık JS uzantılı dosyamızı node dosyaadı şeklinde yazarak çalıştırabiliriz.
 ---------------------------------------------------------------------------------
 
- let number = 5 ;
- number = 'a';
+    let number = 5 ;
+    number = 'a';
 
 ----------------------------------------------------------------------------------
 
@@ -59,13 +59,10 @@ Fonksiyonlarda TS kullanmanın avantajlarını açıklayalım. JS üzerinde
     return 'result : ' + result;
 
 
-getAverage1(10, 20, 30);
-
-getAverage1(10, 20, 30, 50);
-
-getAverage1(10, 20);
-
-getAverage1(10);
+     getAverage1(10, 20, 30);
+     getAverage1(10, 20, 30, 50);
+     getAverage1(10, 20);
+     getAverage1(10);
 
 Görüldüğü üzere fonksiyonumuz içerisine SADECE NUMBER TİPİNDE olabilen bir dizi alarak çalışıyor. Return olarak döneceği değeri de string olarak belirledik. Şuan kullanıcı parametreler yerine number dışında bir parametre girdiği anda program hata verecektir.
 
@@ -143,11 +140,9 @@ Peki nasıl erişeceğiz??? Burada bir fonksiyon yazarak (CLASS IN İÇİNDE Bİ
 
 Ancak biz burada get ve set kullandık. Ulaşmak istediğimiz parametreye get ve set ile işlemler atadık. Bu sayede değişkenimize dışarıdan erişilmesine izin verdik. Ancak set tarafına dikkat edersek kulanıcı taraflı eksi koordinat girme ihtimali hatalarını ortadan kaldırdık.
 
-let taxi_1;
-
-let currentLocation = taxi_1.location;
-
-taxi_1.location = { x: 2, y: 5 };
+     let taxi_1;
+     let currentLocation = taxi_1.location;
+     taxi_1.location = { x: 2, y: 5 };
 
 Artık parametrelerimize get ve set sayesinde erişebiliriz.
 
